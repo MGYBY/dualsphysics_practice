@@ -32,7 +32,7 @@
                 <setmkbound mk="1"/>
                 <drawfilevtk file="pose_transformed_shoes.vtu" objname="GEO_human_equilibrium" autofill="true" advanced="false" reverse="false" >
                     <drawscale x="1.0" y="1.0" z="1.0" />
-                    <drawmove x="0.0" y="0.0" z="0.00" />
+                    <drawmove x="0.0" y="0.0" z="0.0001" /> <!-- Sometimes it needs to be tweaked here  -->
                     <drawrotate angx="0.0" angy="0.0" angz="0.0" />
                 </drawfilevtk>
                 <move x="0.0" y="-0.8" z="0.0" />
@@ -182,3 +182,4 @@
         </parameters>
     </execution>
 </case>
+
